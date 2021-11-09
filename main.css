@@ -1,7 +1,7 @@
 /*
 * Main CSS file for responsive agency website HTML template
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&family=Roboto:wght@400;500;700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 
 body {
@@ -46,13 +46,16 @@ p {
     font-size: 16px;
     font-weight: 600;
 }
-.home-section h3 {
+.home-section h3, .page-section h3 {
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-.home-section h2 {
+.home-section h2, .page-section h2 {
     font-weight: 700;
+}
+.page-section, .post-section {
+    padding: 50px 0;
 }
 /*
 * Hero Section
@@ -314,6 +317,86 @@ p {
 }
 .social-profiles a:hover, .footer-social a:hover {
     color: #ff6058;
+}
+/*------------------------
+* Pages & Posts
+------------------------*/
+.page-head-section{
+    height: 350px;
+    padding-top: 100px;
+    background-color: #333333;
+}
+.post-head-section {
+    min-height: 450px;
+    padding: 150px 10px 50px 10px;
+    background-color: #333333;
+}
+.page-head-section h1, .post-head-section h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #dee2e6;
+}
+.post-meta span {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 15px;
+    color: #ccc;
+    font-weight: 500;
+}
+.post-meta span a {
+    text-decoration: none;
+}
+.widget {
+    margin: 0 0 1em 0;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+.widget-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.widget-content ul, .widget-content ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.widget-content li {
+    margin-bottom: 10px;
+}
+.widget-content li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    width: 100%;
+    line-height: 1.4;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+}
+.widget .tag-cloud a {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #ededed;
+    color: #333333;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.widget .tag-cloud a:hover {
+    background-color: #ff6058;
+    color: #ffffff;
+}
+.contact-link a {
+    text-decoration: none;
 }
 /* 
 * Footer
