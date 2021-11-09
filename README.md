@@ -1,4 +1,6 @@
 # Agency Website Template - HTML, CSS & Bootstrap
+![screenshot](https://user-images.githubusercontent.com/38207694/140987494-febc3c0e-1afe-4700-aaf7-0b8c45717f25.jpg)
 This template was coded during the PSD to HTML conversion tutorial here https://www.youtube.com/watch?v=jKxtF7iGbIo
-It is fully responsive and i have used Bootstrap 5 with carousel and off-canvas navigation for mobile devices. You are free to use this template in your personal or commercial projects. 
-Consider giving a star if you have liked this template. 
+
+## Features
+- [x] Fully Responsive
